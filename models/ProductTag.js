@@ -12,6 +12,7 @@ ProductTag.init(
       primaryKey: true,
       autoIncrement: true,
     },
+    //forigen key
     product_id: {
       type: DataTypes.INTEGER,
       references: {
